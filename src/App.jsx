@@ -3,6 +3,7 @@ import Hero from "./components/hero/hero.jsx";
 import Portfolio from "./components/portfolio/portfolio.jsx";
 import About from "./components/about/about.jsx";
 import Contact from "./components/contact/contact.jsx";
+import Footer from "./components/footer/footer.jsx";
 function App(){
     return(
       <>
@@ -11,6 +12,7 @@ function App(){
       <Portfolio/>
       <About/>
       <Contact/>
+      <Footer/>
       </>
     )
 }
