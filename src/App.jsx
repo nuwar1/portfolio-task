@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom";
-import Navbar from "./components/navbar/Navbar.jsx";
-import Hero from "./components/hero/Hero.jsx";
-import Portfolio from "./components/portfolio/Portfolio.jsx";
-import About from "./components/about/About.jsx";
-import Contact from "./components/contact/Contact.jsx";
-import Footer from "./components/footer/Footer.jsx";
+import Navbar from "./components/navbar/navbar.jsx";
+import Hero from "./components/hero/hero.jsx";
+import Portfolio from "./components/portfolio/portfolio.jsx";
+import About from "./components/about/about.jsx";
+import Contact from "./components/contact/contact.jsx";
+import Footer from "./components/footer/footer.jsx";
 function App() {
   return (
     <>

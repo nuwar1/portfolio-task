@@ -1,4 +1,4 @@
-import style from "./Portfolio.module.css"
+import style from "./portfolio.module.css"
 import img1 from "./../../assets/images/cabin.png"
 import img2 from "./../../assets/images/cake.png"
 import img3 from "./../../assets/images/circus.png"
