@@ -1,4 +1,4 @@
-import style from "./Hero.module.css"
+import style from "./hero.module.css"
 import heroImg from "./../../assets/images/avataaars.svg"
 function Hero() {
 
