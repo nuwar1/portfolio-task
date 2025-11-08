@@ -1,8 +1,8 @@
-import style from "./contact.module.css"
+import style from "./Contact.module.css"
 function Contact() {
 
     return (
-        <section className="py-5">
+        <section className="py-5 vh-100">
             <h2 className={`text-center text-uppercase fw-semibold  ${style.heading}`}>Contact me</h2>
             <div className="container py-4">
                 <div className="form-floating mb-3">

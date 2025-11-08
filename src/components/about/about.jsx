@@ -1,8 +1,8 @@
-import style from "./about.module.css"
+import style from "./About.module.css"
 function About() {
 
     return (
-        <section className={`py-5 text-white ${style['about-section']}`}>
+        <section className={`py-5 vh-100 text-white ${style['about-section']}`}>
             <h2 className="text-center fw-semibold">ABOUT</h2>
             <div className="container">
                 <div className="row justify-content-center g-4 py-4">

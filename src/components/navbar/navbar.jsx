@@ -1,4 +1,5 @@
-import style from './navbar.module.css'
+import style from './Navbar.module.css'
+import { Link } from 'react-router-dom';
 function Navbar() {
 
     return (
@@ -11,13 +12,13 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ms-auto gap-4">
                         <li className="nav-item">
-                            <a className={`nav-link  ${style.navLink} ${style.isActive}`} href="#">PORTFOLIO</a>
+                            <Link className={`nav-link  ${style.navLink} ${style.isActive}`} to={"/"}>PORTFOLIO</Link>
                         </li>
                         <li className="nav-item">
-                            <a className={`nav-link ${style.navLink}`} href="#">ABOUT</a>
+                            <Link className={`nav-link ${style.navLink}`} to={"/about"}>ABOUT</Link>
                         </li>
                         <li className="nav-item">
-                            <a className={`nav-link ${style.navLink}`} href="#">CONTACT</a>
+                            <Link className={`nav-link ${style.navLink}`} to={"/contact"}>CONTACT</Link>
                         </li>
                     </ul>
                 </div>
